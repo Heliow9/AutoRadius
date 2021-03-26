@@ -1,6 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Trabalhando com Background e BorderRadius Dinâmicas
 
-## Getting Started
+The border-radius property can have multiple values changed. Preview how the shape looks while changing these values.
+
 
 First, run the development server:
 
