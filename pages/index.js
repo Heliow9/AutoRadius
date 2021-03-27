@@ -33,7 +33,11 @@ export default function Home() {
       <h1>Trabalhando com Background e BorderRadius Dinâmicas</h1>
       <div className={styles.BackgroundGroud}>
         <label htmlFor="bgcolor">Adicione um código Hexadecimal da cor:</label>
+        <div className={styles.inputHash}>
+          <span>#</span>
         <input name="bgcolor" className={styles.inputColor} type="text" placeholder="BackgroundColor" onChange={event => (setBgColor(event.target.value))} />
+        </div>
+        
       </div>
       <button className={styles.geratebtn} onClick={HandlerGetStyle}>Gerar Código CSS</button>
       <div id="Radius" className={styles.EditableRadius} style={{ borderTopLeftRadius: topleft ? parseInt(topleft) : 0, borderTopRightRadius: topRight ? parseInt(topRight) : 0, borderBottomLeftRadius: bottomleft ? parseInt(bottomleft) : 0, borderBottomRightRadius: bottomRight ? parseInt(bottomRight) : 0 }} >

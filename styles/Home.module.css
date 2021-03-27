@@ -127,16 +127,26 @@
 }
 
 .EditableRadius span {
- font-size: 11px;
+  font-size: 11px;
 }
 
 .inputColor {
   margin-bottom: 22px;
-  width: 150px;
+  width: 140px;
   height: 26px;
-  border-radius: 5px;
   border: none;
   padding: 0 10px;
+  outline: none;
+}
+
+.inputHash {
+  background: white;
+  width: 160px;
+  height: 26px;
+  flex-direction: row;
+
+  
+  
 }
 
 .EditableRadius input {
@@ -152,6 +162,11 @@
 .bottomInputs {
   display: flex;
   justify-content: space-between;
+}
+
+.BackgroundGroud{
+  display: flex;
+  align-items: center;
 }
 
 .BackgroundGroud label {
