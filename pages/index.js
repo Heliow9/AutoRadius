@@ -23,6 +23,8 @@ export default function Home() {
     data.borderBottomLeftRadius = style.borderBottomLeftRadius;
     data.borderBottomRightRadius = style.borderBottomRightRadius;
 
+    setCss(data)
+    alert('Seu CSS foi gerado com sucésso !')
   }
 
 
@@ -39,9 +41,13 @@ export default function Home() {
           <input type="number" onChange={event => (setLeftRadius(event.target.value))} />
           <input type="number" onChange={event => (setRightRadius(event.target.value))} />
         </div>
-        <h3>{styled.map((item, key) => (
-          console.log(item.width)
-        ))}</h3>
+        <span>width: {styled.width};</span>
+        <span>heigth: {styled.heigth};</span>
+        <span>border: {styled.border};</span>
+        <span>borderTopLeftRadius:  {styled.borderTopLeftRadius}</span>
+        <span>borderTopRightRadius: {styled.borderTopRightRadius}</span>
+        <span> borderBottomLeftRadius: {styled.borderBottomLeftRadius}</span>
+        <span> borderBottomRightRadius: {styled.borderBottomRightRadius}</span>
         <div className={styles.bottomInputs}>
           <input type="number" onChange={event => (setLeftBRadius(event.target.value))} />
           <input type="number" onChange={event => (setRighttBRadius(event.target.value))} />

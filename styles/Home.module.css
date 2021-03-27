@@ -126,35 +126,41 @@
   padding: 30px;
 }
 
-.inputColor{
+.EditableRadius span {
+ font-size: 11px;
+}
+
+.inputColor {
   margin-bottom: 22px;
-  width:150px;
-  height:26px;
-  border-radius:5px;
+  width: 150px;
+  height: 26px;
+  border-radius: 5px;
   border: none;
   padding: 0 10px;
 }
 
 .EditableRadius input {
-  width:60px;
-  height:32px;
+  width: 60px;
+  height: 32px;
 }
 
-.topInputs{
+.topInputs {
   display: flex;
-  justify-content:space-between;
-}
-.bottomInputs{
-  display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.BackgroundGroud label{
+.bottomInputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.BackgroundGroud label {
   margin-right: 10px;
 }
-.geratebtn{
+
+.geratebtn {
   margin: 10px;
-  border:none;
-  width:230px;
-  height:26px;
+  border: none;
+  width: 230px;
+  height: 26px;
 }
